@@ -1,0 +1,44 @@
+.sidebar-list {
+	margin-right: -15px;
+
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px
+}
+
+.sidebar-list li:hover {
+	background-color: deepskyblue !important;
+}
+
+.sidebar-list li a {
+	color: white;
+	text-decoration: none;
+}
+
+.mytable1 .card {
+	background: #5f2c82;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #49a09d, #5f2c82);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.mytable2 .card {
+	background: #EC6F66;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F3A183, #EC6F66);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F3A183, #EC6F66);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.card {
+	overflow: hidden;
+	transition: all 0.9s ease;
+}
+
+.card:hover {
+	transform: scale(1.04);
+}

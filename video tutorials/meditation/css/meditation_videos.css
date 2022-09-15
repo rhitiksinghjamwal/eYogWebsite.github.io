@@ -1,0 +1,220 @@
+/*=======================================
+       Basic Properties start
+==========================================*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+
+/*=======================================
+       Basic Properties end
+==========================================*/
+
+
+
+
+
+/*=======================================
+       Navigation Properties start
+==========================================*/
+
+.navbar {
+	padding: 18px 0px;
+	border-bottom: none !important;
+	transition: all 0.5s ease-in-out;
+}
+
+.navbar-toggle {
+	border: 1px solid white !important;
+	transition: all 0.5s ease-in;
+}
+
+ul li a {
+	color: white !important;
+	font-weight: bold;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: all 0.5s ease-in;
+}
+
+ul li a:hover {
+	color: white !important;
+	font-size: 14px;
+}
+
+
+
+/*=======================================
+       Navigation Properties ends
+==========================================*/
+
+
+
+
+
+/*=======================================
+       Card Properties start
+==========================================*/
+
+#mybody {
+	background-color: #e9ecef;
+
+}
+
+#video-list-section {
+	position: absolute;
+	top: 80px;
+	right: 150px;
+	background-color: deepskyblue;
+	padding: 20px;
+	left: 900px;
+	width: 400px;
+
+}
+
+.fixed-top {
+	position: relative;
+}
+
+
+
+.item #sidebar-wrapper,
+#sidebar-wrapper {
+	float: right;
+	width: 30%;
+	max-width: 330px;
+}
+
+#sidebar-wrapper {
+	padding-top: 20px;
+}
+
+
+.commentdiv {
+	height: 170px;
+	width: 760px;
+	border: 1px #d2c8c8 solid;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+textarea {
+
+	margin-right: 20px;
+	margin-top: 50px;
+	width: 600px;
+	height: 70px;
+}
+
+.commentbtn {
+	height: 30px;
+	width: 100px;
+	border: none;
+	color: #fff;
+	margin-left: 20px;
+	background-color: deepskyblue;
+}
+
+.comment-box {
+	width: 760px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 4px;
+	margin-bottom: 4px;
+	position: relative;
+}
+
+.comment-box p {
+	font-family: arial;
+	font-size: 14px;
+	line-height: 16px;
+
+}
+
+.delete-form {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+}
+
+.delete-form Button {
+	width: 40px;
+	height: 20px;
+	color: #282828;
+	background-color: #fff;
+	opacity: 0.7;
+	border: none;
+}
+
+.delete-form Button:hover {
+	opacity: 1px;
+}
+
+.btnEdit {
+	position: absolute !important;
+	top: 0px !important;
+	right: 120px !important;
+	width: 40px;
+	height: 20px;
+	color: #282828;
+	background-color: #fff;
+	opacity: 0.7;
+	border: none;
+}
+
+.btnEdit:hover {
+	opacity: 1px;
+	cursor: pointer;
+
+}
+
+
+/*=======================================
+       Card Properties start
+==========================================*/
+
+
+
+/*=======================================
+       Footer Properties Start
+==========================================*/
+
+#footer-section {
+	background-color: #c2f1e4;
+
+}
+
+.icons .fa {
+	font-size: 40px;
+	margin-right: 7px;
+}
+
+.social-networks .fa {
+	border: 1px solid black;
+	padding: 10px;
+	color: black;
+	width: 35px;
+	height: 35px;
+	border-radius: 25px;
+	transition: all 0.5s ease-in;
+}
+
+.social-networks .fa:hover {
+	text-decoration: none;
+	background-color: deepskyblue;
+	color: black;
+	border: 1px solid deepskyblue;
+}
+
+/*=======================================
+       Footer Properties Ends
+==========================================*/

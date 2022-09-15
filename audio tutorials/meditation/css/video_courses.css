@@ -1,0 +1,135 @@
+/*=======================================
+       Basic Properties start
+==========================================*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: red;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+/*=======================================
+       Basic Properties end
+==========================================*/
+
+
+
+
+/*=======================================
+       Navigation Properties start
+==========================================*/
+.navbar {
+    padding: 18px 0px;
+    border-bottom: none !important;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-toggle {
+    border: 1px solid white !important;
+    transition: all 0.5s ease-in;
+}
+
+ul li a {
+    color: white !important;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.5s ease-in;
+}
+
+ul li a:hover {
+    color: white !important;
+    font-size: 14px;
+}
+
+
+
+/*=======================================
+       Navigation Properties ends
+==========================================*/
+
+
+
+
+/*=======================================
+       Card Properties start
+==========================================*/
+
+.card-shadow{
+    border: 2px solid black !important;
+    border-width: 2px solid black !important;
+    border-color: black;    
+}
+
+.container {
+    margin-top: 1%;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+    /* to rotate image smoothly*/
+
+}
+
+.inner:hover img {
+    transform: rotate(5deg);
+    /* to rotate the image 5 deg*/
+
+}
+
+
+
+/*=======================================
+       Card Properties start
+==========================================*/
+
+
+
+
+
+/*=======================================
+       Footer Properties Start
+==========================================*/
+
+#footer-section {
+    background-color: #c2f1e4;
+
+}
+
+.icons .fa {
+    font-size: 40px;
+    margin-right: 7px;
+}
+
+.social-networks .fa {
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    transition: all 0.5s ease-in;
+}
+
+.social-networks .fa:hover {
+    text-decoration: none;
+    background-color: deepskyblue;
+    color: black;
+    border: 1px solid deepskyblue;
+}
+
+/*=======================================
+       Footer Properties Ends
+==========================================*/

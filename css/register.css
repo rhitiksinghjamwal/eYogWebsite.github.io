@@ -1,0 +1,283 @@
+/*=======================================
+       Basic Properties start
+==========================================*/
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#myhead {
+	font-family: 'Lobster', cursive;
+}
+
+/*=======================================
+       Basic Properties End
+==========================================*/
+
+
+
+
+/*=======================================
+       Navigation Properties start
+==========================================*/
+.navbar {
+	padding: 18px 0px;
+	background-color: #111e2d !important;
+	border-bottom: none !important;
+	transition: all 0.5s ease-in-out;
+
+
+}
+
+.navbar-toggle {
+	border: 1px solid white !important;
+	transition: all 0.5s ease-in;
+}
+
+.navbar-toggle:hover {
+	background-color: deepskyblue !important;
+}
+
+#our-location {
+	border: 1px solid white;
+	border-radius: 45px;
+	padding: 12px 12px 12px 12px;
+	background: deepskyblue !important;
+
+}
+
+#our-location:hover {
+	background-color: white !important;
+
+}
+
+.navbar-inverse {
+	background-color: orange !important;
+}
+
+
+/*=======================================
+       Navigation Properties ends
+==========================================*/
+
+
+
+/*=======================================
+  Sticky Navigation with background color
+==========================================*/
+
+.secondary {
+	background-color: orange !important;
+}
+
+/*=======================================
+      Sticky Navigation Properties ends
+==========================================*/
+
+
+
+
+
+/*=======================================
+       Slider Properties start
+==========================================*/
+
+.register-slider {
+	width: 100%;
+	height: 700px;
+	background-image: url(..//assets/images/register_back.jpg);
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+}
+
+.icons .fa {
+	font-size: 40px;
+	margin-right: 7px;
+}
+
+.cta-div {
+	margin-top: 30px;
+}
+
+.btn1 {
+	padding: 13px 18px;
+	background-color: transparent;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	border: 2px solid white;
+	border-top-left-radius: 15px;
+	transition: all 0.3s ease-in;
+	margin-right: -6px;
+
+
+}
+
+.btn1:hover {
+	text-decoration: none;
+	color: white;
+	background-color: orangered;
+	border-color: orangered;
+	font-size: 15px;
+
+}
+
+.btn2 {
+	padding: 13px 18px;
+	background-color: transparent;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	border: 2px solid white;
+	background-color: deepskyblue;
+	border-bottom-right-radius: 15px;
+	transition: all 0.5s ease-in;
+
+}
+
+.btn2:hover {
+	text-decoration: none;
+	color: white;
+	background-color: transparent;
+	border-color: deepskyblue;
+}
+
+.social-networks .fa {
+	border: 1px solid black;
+	padding: 10px;
+	color: black;
+	width: 35px;
+	height: 35px;
+	border-radius: 25px;
+	transition: all 0.5s ease-in;
+}
+
+.social-networks .fa:hover {
+	text-decoration: none;
+	background-color: deepskyblue;
+	color: black;
+	border: 1px solid deepskyblue;
+}
+
+
+/*=======================================
+       Slider Properties end
+==========================================*/
+
+
+
+
+/*=======================================
+       Register Page Properties start
+==========================================*/
+#perror {
+	position: absolute;
+	margin-top: -5px !important;
+	color: red !important;
+	width: 190px;
+}
+
+#register-heading {
+	margin-left: 0px;
+	padding-left: 0px !important;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content {
+	background: rgba(242, 231, 231, 0.3) !important;
+	position: relative !important;
+	margin: 0% auto !important;
+	height: 500px !important;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+	border-style: groove;
+}
+
+.modal-dialog {
+	padding-top: 100px !important;
+	width: 400px !important;
+}
+
+label {
+	position: relative;
+	width: 160px;
+}
+
+
+.form-group {
+	margin-top: 50px;
+	margin-left: 80px;
+}
+
+#errorlabel {
+	position: absolute;
+	margin-top: -5px;
+}
+
+
+#btn-signup {
+	margin-top: 20px !important;
+	margin-left: 0px !important;
+	position: relative !important;
+	width: 120px !important;
+	height: 40px !important;
+	border: none !important;
+	border-radius: 2px !important;
+	color: #fff !important;
+	font-weight: 500px !important;
+	text-transform: uppercase !important;
+	transition: 0.5 ease-in !important;
+	cursor: pointer !important;
+	background-color: orangered !important;
+
+}
+
+#sign {
+	text-decoration: none !important;
+	color: white !important;
+}
+
+
+#create-account a {
+	text-decoration: none;
+	color: black;
+
+}
+
+.box {
+	position: absolute !important;
+	margin-top: -71.5px !important;
+	right: 0 !important;
+	box-sizing: border-box !important;
+	padding: 40px !important;
+	width: 450px !important;
+	height: 400px !important;
+	background-size: cover !important;
+	background-position: center;
+	background-image: none;
+}
+
+
+/*=======================================
+       Register Page Properties End
+==========================================*/
+
+
+
+/*=======================================
+       Footer Section Properties start
+==========================================*/
+#footer-section {
+	margin-top: 580px;
+}
+
+/*=======================================
+       Footer Section Properties end
+==========================================*/

@@ -1,0 +1,45 @@
+<?php
+
+session_start();
+
+$con = mysqli_connect('localhost', 'root');
+
+mysqli_select_db($con, 'yog');
+
+
+if (isset($_POST['btn-delete-vid'])) {
+	
+	$course_name=$_POST['selected_course'];
+	$q="DELETE FROM video_info WHERE course_name='$course_name'";
+	$r=mysqli_query($con,$q);
+	if ($r) 
+	{
+		header("location:manage_videos.php?status=deleted");
+	}
+
+}
+
+
+// =====================================================================================================================
+
+			// delete a particular video from edit_video
+
+if (isset($_GET['id']))        //$_GET because value came from anchor tag and not from 'post' method of a form
+{           
+	
+	$course_name=$_GET['course_name'];     //to give it back to edit_video.php page
+	$vid_id=$_GET['id'];
+	$q="DELETE FROM videos WHERE video_id='$vid_id'";
+	$r=mysqli_query($con,$q);
+	if ($r) 
+	{
+		header("location:edit_videos.php?course_name=$course_name");
+	}
+	
+
+}
+
+
+?>
+
+// =======================================================================================================================

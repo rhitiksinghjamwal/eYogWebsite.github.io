@@ -1,0 +1,439 @@
+/*========================================
+       Basic Properties start
+==========================================*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: red !important;
+    font-family: 'Playfair Display', serif !important;
+    font-size: 3.625rem !important;
+}
+
+h3 {
+    color: black !important;
+    font-family: 'Playfair Display', serif !important;
+}
+
+/*========================================
+       Basic Properties start
+==========================================*/
+
+
+
+
+
+/*========================================
+       Navigation Properties start
+==========================================*/
+.navbar {
+    padding: 18px 0px;
+    background-color: orange !important;
+    border-bottom: none !important;
+    transition: all 0.5s ease-in-out;
+
+
+}
+
+.navbar-toggle {
+    border: 1px solid white !important;
+    transition: all 0.5s ease-in;
+}
+
+.navbar-toggle:hover {
+    background-color: deepskyblue !important;
+}
+
+ul li a {
+    color: white !important;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.5s ease-in;
+}
+
+ul li a:hover {
+    color: black !important;
+    font-size: 14px;
+}
+
+
+
+#our-location {
+    border: 1px solid white;
+    border-radius: 45px;
+    padding: 12px 12px 12px 12px;
+    background: deepskyblue !important;
+
+}
+
+#our-location:hover {
+    background-color: white !important;
+
+}
+
+.navbar-inverse {
+    background-color: orange !important;
+}
+
+
+/*========================================
+       Navigation Properties ends
+==========================================*/
+
+
+
+
+/*========================================
+  Sticky Navigation with background color
+==========================================*/
+
+.secondary {
+    background-color: orange !important;
+}
+
+
+/*========================================
+      Sticky Navigation Properties ends
+==========================================*/
+
+
+/*========================================
+       Slider Properties start
+==========================================*/
+
+.slider {
+    width: 100%;
+    height: 100vh;
+    background-image: url(..//assets/images/back.png);
+    background-size: 100% 90%;
+    background-position: center;
+}
+
+.slider-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(187, 183, 183, 0.6);
+}
+
+.slider-content {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    color: white;
+}
+
+.cta-div {
+    margin-top: 30px;
+}
+
+.btn1 {
+    padding: 13px 18px;
+    background-color: transparent;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid black;
+    border-top-left-radius: 15px;
+    transition: all 0.3s ease-in;
+    margin-right: -6px;
+}
+
+.btn1:hover {
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    border-color: orangered;
+    font-size: 15px;
+}
+
+.btn2 {
+    padding: 13px 18px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid black;
+    border-bottom-right-radius: 15px;
+    transition: all 0.5s ease-in;
+}
+
+.btn2:hover {
+    text-decoration: none;
+    color: black;
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+}
+
+.primary {
+    color: orangered;
+
+}
+
+
+/*========================================
+       Yog and med Properties start
+==========================================*/
+
+#ym {
+    margin: 0%;
+    padding: 0%;
+}
+
+.yoga-back-img {
+    background-image: url(..//assets/images/yoga.jpg);
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.med-back-img {
+    background-image: url(..//assets/images/meditation.jpg);
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/*========================================
+       Yog and med Properties ends
+==========================================*/
+
+
+
+/*========================================
+       Courses Properties Starts
+==========================================*/
+
+.courses-area {
+    margin-top: 30px;
+}
+
+.courses-area p {
+    margin-bottom: -5px;
+}
+
+.courses-wrap {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding: 25px 35px;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    z-index: 9;
+    margin-top: 20px;
+}
+
+.courses-wrap::before,
+.courses-wrap::after {
+    content: "";
+    height: 300%;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 120%;
+    z-index: -9;
+    transition: all 0.5s;
+    opacity: 0;
+    background: orange;
+}
+
+.courses-wrap::before {
+    top: -37px;
+    left: 100%;
+
+}
+
+.courses-wrap:hover:before {
+    left: -27px;
+    opacity: 1;
+}
+
+.courses-wrap::after {
+    right: 100%;
+    bottom: -37px;
+}
+
+.courses-wrap:hover:after {
+    right: -27px;
+    opacity: 1;
+}
+
+.courses-wrap:hover {
+    color: white;
+}
+
+*/ .courses-wrap:h3 {
+    color: white;
+}
+
+.courses-wrap:hover h3 a {
+    color: white;
+}
+
+.courses-wrap:hover h3 a:after {
+    background-color: white;
+}
+
+.courses-icon i {
+    font-size: 30px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+
+.courses-wrap:hover .service-icon i {
+    transform: rotate(360deg);
+}
+
+.courses-wrap h3 a {
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+.courses-wrap p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.row:hover {
+    cursor: pointer;
+}
+
+
+/*========================================
+       Courses Properties End
+==========================================*/
+
+
+
+/*========================================
+       FAQs Properties Start
+==========================================*/
+
+#accordian .panel {
+    box-shadow: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#accordian .panel-heading {
+    padding: 0px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+#accordian .panel-title a {
+    display: block;
+    padding: 25px 35px;
+    font-size: 20px;
+    font-weight: 600px;
+    color: white;
+    background: orange !important;
+    border: none;
+    position: relative;
+    transition: all 0.3s ease 0s;
+
+}
+
+#accordian .panel-title a:after,
+#accordian .panel-title a .collapsed:after {
+    content: "\f068";
+    font-family: fontawesome;
+    width: 40px;
+    height: 40px;
+    line-height: 32px;
+    border-radius: 50%;
+    background: orange;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    border: 5px solid white;
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    transition: all 0.3s ease 0s;
+
+}
+
+#accordian .panel-title a.collapsed:after {
+    content: '\f067';
+
+}
+
+#accordian .panel-title a:hover:after,
+#accordian .panel-title a.collapsed:hover:after {
+    transform: rotate(360deg);
+}
+
+#accordian .panel-body {
+    padding: 15px 25px;
+    background-color: #ebebeb !important;
+    font-size: 14px;
+    color: #8c8c8c;
+    line-height: 25px;
+    border-top: none;
+    position: relative;
+}
+
+.panel-heading a {
+    text-decoration: none !important;
+    font-size: 15px !important;
+    font-weight: normal !important;
+}
+
+.freeimage img {
+    margin-top: -55px;
+
+}
+
+/*========================================
+       FAQs Properties End
+==========================================*/
+
+
+
+
+/*========================================
+       Footer Properties Start
+==========================================*/
+
+#footer-section {
+    background-color: #c2f1e4;
+
+}
+
+.icons .fa {
+    font-size: 40px;
+    margin-right: 7px;
+}
+
+.social-networks .fa {
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    transition: all 0.5s ease-in;
+}
+
+.social-networks .fa:hover {
+    text-decoration: none;
+    background-color: deepskyblue;
+    color: black;
+    border: 1px solid deepskyblue;
+}
+
+/*========================================
+       Footer Properties Ends
+==========================================*/
